@@ -1,0 +1,19 @@
+{
+    "rust-analyzer.statusBar.showStatusBar": {
+        "documentSelector": [
+            {
+                "language": "rust"
+            },
+            {
+                "pattern": "**/Cargo.toml"
+            },
+            {
+                "pattern": "**/Cargo.lock"
+            },
+            {
+                "scheme": "output",
+                "pattern": "extension-output-rust-lang.rust-analyzer*"
+            }
+        ]
+    }
+}
