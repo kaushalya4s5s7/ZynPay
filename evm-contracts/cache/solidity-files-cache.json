@@ -1,0 +1,752 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/contracts/UltraSimplePayment.sol": {
+      "lastModificationDate": 1756262957456,
+      "contentHash": "d787dfdd041a38116ddb7d9d1ebd2dd0",
+      "sourceName": "contracts/UltraSimplePayment.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UltraSimplePayment"
+      ]
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/contracts/securetransfer/SecureTransfer.sol": {
+      "lastModificationDate": 1756262837440,
+      "contentHash": "28b81c74bce597354f1a9fdcc1da1108",
+      "sourceName": "contracts/securetransfer/SecureTransfer.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/ReentrancyGuard.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SecureTransfer"
+      ]
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/node_modules/@openzeppelin/contracts/utils/ReentrancyGuard.sol": {
+      "lastModificationDate": 1756264714377,
+      "contentHash": "190613e556d509d9e9a0ea43dc5d891d",
+      "sourceName": "@openzeppelin/contracts/utils/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1756264714335,
+      "contentHash": "8f19f64d2adadf448840908bbaf431c8",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/node_modules/@openzeppelin/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1756264714334,
+      "contentHash": "79af12d64eacc7d77b9ee2ac4b4d51ee",
+      "sourceName": "@openzeppelin/contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": []
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/node_modules/@openzeppelin/contracts/interfaces/IERC1363.sol": {
+      "lastModificationDate": 1756264714323,
+      "contentHash": "6b7c5ee7a59c981072a804c99ab0fac9",
+      "sourceName": "@openzeppelin/contracts/interfaces/IERC1363.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC1363"
+      ]
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/node_modules/@openzeppelin/contracts/interfaces/IERC165.sol": {
+      "lastModificationDate": 1756264714324,
+      "contentHash": "f808b485ee0cdc6768ee8385ae5f9a2a",
+      "sourceName": "@openzeppelin/contracts/interfaces/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": []
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+      "lastModificationDate": 1756264714324,
+      "contentHash": "bf0119eb2a570f219729ff38b6cd1df8",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/node_modules/@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol": {
+      "lastModificationDate": 1756264714385,
+      "contentHash": "b6c6348d1c4d3e890f8d8a885b2477c0",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol",
+        "../../../interfaces/IERC1363.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/contracts/transfers-production/BulkPayroll.sol": {
+      "lastModificationDate": 1756262837440,
+      "contentHash": "c4d2421173ea56f2b6af65cf3ab3d094",
+      "sourceName": "contracts/transfers-production/BulkPayroll.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/ReentrancyGuard.sol",
+        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BulkPayroll"
+      ]
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/contracts/USDT/usdtContract.sol": {
+      "lastModificationDate": 1756320922887,
+      "contentHash": "a5f615fb14bfac585f959c9eb58a725b",
+      "sourceName": "contracts/USDT/usdtContract.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@kaiachain/contracts/utils/Context.sol",
+        "@kaiachain/contracts/KIP/utils/introspection/KIP13.sol",
+        "@kaiachain/contracts/KIP/token/KIP7/IKIP7.sol",
+        "@kaiachain/contracts/KIP/token/KIP7/extensions/IKIP7Metadata.sol",
+        "@kaiachain/contracts/utils/Address.sol",
+        "@kaiachain/contracts/KIP/token/KIP7/IKIP7Receiver.sol",
+        "@kaiachain/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "KIP7"
+      ]
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/node_modules/@kaiachain/contracts/utils/Address.sol": {
+      "lastModificationDate": 1756319965385,
+      "contentHash": "ad714a6368ee7d43cded6bbe8af0b155",
+      "sourceName": "@kaiachain/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/node_modules/@kaiachain/contracts/utils/Context.sol": {
+      "lastModificationDate": 1756319965389,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@kaiachain/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/node_modules/@kaiachain/contracts/KIP/utils/introspection/KIP13.sol": {
+      "lastModificationDate": 1756319965756,
+      "contentHash": "67a1996957f01f73c6f79cf4b3a6ff78",
+      "sourceName": "@kaiachain/contracts/KIP/utils/introspection/KIP13.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IKIP13.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "KIP13"
+      ]
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/node_modules/@kaiachain/contracts/KIP/token/KIP7/IKIP7Receiver.sol": {
+      "lastModificationDate": 1756319965754,
+      "contentHash": "272494dd75f89d282322f7e979e92cf5",
+      "sourceName": "@kaiachain/contracts/KIP/token/KIP7/IKIP7Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IKIP7Receiver"
+      ]
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/node_modules/@kaiachain/contracts/KIP/token/KIP7/extensions/IKIP7Metadata.sol": {
+      "lastModificationDate": 1756319965754,
+      "contentHash": "c71f8f8b1f9230b33557ccbe68852a80",
+      "sourceName": "@kaiachain/contracts/KIP/token/KIP7/extensions/IKIP7Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IKIP7.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IKIP7Metadata"
+      ]
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/node_modules/@kaiachain/contracts/KIP/token/KIP7/IKIP7.sol": {
+      "lastModificationDate": 1756319965754,
+      "contentHash": "d4b9b30cadafa6ddd5c9e8fbdd1341f7",
+      "sourceName": "@kaiachain/contracts/KIP/token/KIP7/IKIP7.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IKIP7"
+      ]
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/node_modules/@kaiachain/contracts/KIP/interfaces/IKIP13.sol": {
+      "lastModificationDate": 1756319965747,
+      "contentHash": "25927cee30adfc527fbecfa0a048b306",
+      "sourceName": "@kaiachain/contracts/KIP/interfaces/IKIP13.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/introspection/IKIP13.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": []
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/node_modules/@kaiachain/contracts/KIP/utils/introspection/IKIP13.sol": {
+      "lastModificationDate": 1756319965749,
+      "contentHash": "c260f9c9edaaab3f1407e65b1c3fb0f2",
+      "sourceName": "@kaiachain/contracts/KIP/utils/introspection/IKIP13.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IKIP13"
+      ]
+    },
+    "/Users/kaushalchaudhari/Desktop/web3/projects/kaia/Alentra_hedera/evm-contracts/node_modules/@kaiachain/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1756319965764,
+      "contentHash": "8398972af73b4e9e5ff3b31cad86234f",
+      "sourceName": "@kaiachain/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    }
+  }
+}
